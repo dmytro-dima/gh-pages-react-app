@@ -1,0 +1,157 @@
+#form-new-car{
+  margin-top: 2rem;
+  min-height: 100vh;
+
+  .progressive-bar{
+    padding: 0;
+    list-style-type: none;
+    height: 2rem;
+    margin: 1rem 0;
+
+    li {
+      display: inline-block;
+      width: 50%;
+      height: 2.5rem;
+      float: left;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 1rem;
+      color: white;
+      font-family: sans-serif;
+      background: #4050b5;
+
+      p {
+        padding: 0 12px;
+        height: 40px;
+        line-height: 40px;
+        position: relative;
+        display: block;
+        &:before {
+          content: "";
+          position: absolute;
+          border-style: solid;
+          border-width: 20px;
+          left: 0px;
+        }
+        &:after {
+          content: "";
+          position: absolute;
+          border-style: solid;
+          border-width: 20px;
+          left: 0px;
+          content: "";
+          right: -40px;
+          left: auto;
+        }
+      }
+    }
+    li.active {
+      background: #f50157;
+    }
+
+    &_top{
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      margin: auto 0;
+      li {
+        p {
+          &:before {
+            border-color: transparent transparent transparent  #f50157;
+          }
+          &:after {
+            border-color: transparent transparent transparent  #4050b5;
+          }
+        }
+      }
+      li.active {
+        p{
+          &:after {
+            border-color: transparent transparent transparent #f50157;
+          }
+        }
+      }
+    }
+
+    &_bottom{
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      margin: auto 0;
+      li {
+        p {
+          &:before {
+            border-color: transparent transparent transparent  #4050b5;
+          }
+          &:after {
+            border-color: transparent transparent transparent  #f50157;
+          }
+        }
+      }
+      li.active {
+        p{
+          &:after {
+            border-color: transparent transparent transparent #f50157;
+          }
+        }
+      }
+    }
+  }
+
+
+  .accordion-header{
+    &_title{
+      padding: 0 0 0 1rem;
+      &-number{
+        background-color: #4050b5;
+        float: left;
+        color: #fff;
+        text-align: center;
+        padding: 4px 6px;
+        width: 20px;
+        border-radius: 25px;
+      }
+
+      h5{
+        padding: 0 0 0 1rem;
+      }
+    }
+  }
+
+
+  .accordion-details{
+    &_chous {
+      .btn-group{
+        input{
+          cursor: pointer;
+        }
+      }
+     &-file {
+        width: 10rem;
+        height: 2.5rem;
+        opacity: 0;
+        position: absolute;
+        z-index: 1;
+      }
+    }
+
+    &_specifications{
+      .details{
+        &-title{
+          height: 3rem;
+          line-height: 3rem;
+          width: 10rem;
+        }
+
+        &-icon {
+          margin: .5rem;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+

@@ -1,0 +1,17 @@
+export const UPDATE_CAR = "UPDATE_CARS";
+export const DELETE_CAR = "DELETE_CAR";
+export const CREATE_CAR = "CREATE_CARS";
+export const GET_CARS = "GET_CARS";
+export const GET_CAR = "GET_CAR";
+export const GET_THEME = "GET_THEME";
+export const ADD_PARAMETER = "ADD_PARAMETER";
+export const ADD_FILTER = "ADD_FILTER";
+export const DELETE_FILTER = "DELETE_FILTER";
+export const SET_FILTER = "SET_FILTER";
+export const SET_CAR = "SET_CAR";
+export const SET_THEME = "SET_THEME";
+export const LOGIN_USER = "LOGIN_USER";
+export const LOGOUT_USER = "LOGOUT_USER";
+export const CHANGE_THEM = "CHANGE_THEM";
+export const DELETE_FAVORITE_CAR = "DELETE_FAVORITE_CAR";
+export const ADD_FAVORITE_CAR = "ADD_FAVORITE_CAR";

@@ -1,0 +1,22 @@
+@import 'components/header';
+@import 'components/filter';
+@import 'components/office-user';
+@import 'components/form-add-car';
+@import 'components/view-car-details';
+
+* {
+  box-sizing: content-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+}
+
+
+button{
+  outline: none!important;
+}
