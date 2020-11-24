@@ -8,8 +8,8 @@ export const Office = ({ state, dispatch, favorite }) => {
   const [filterFavoriteCar, setFilterFavoriteCar] = useState({
     types: "",
     brand: "",
-    yearOf: null,
-    yearOn: null,
+    yearOf: NaN,
+    yearOn: NaN,
     regions: "",
     body: "",
   });
