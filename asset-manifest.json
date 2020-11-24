@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/gh-pages-react-app/static/css/main.2d5db054.chunk.css",
-    "main.js": "/gh-pages-react-app/static/js/main.e3b15838.chunk.js",
-    "main.js.map": "/gh-pages-react-app/static/js/main.e3b15838.chunk.js.map",
-    "runtime-main.js": "/gh-pages-react-app/static/js/runtime-main.57e294b8.js",
-    "runtime-main.js.map": "/gh-pages-react-app/static/js/runtime-main.57e294b8.js.map",
-    "static/js/2.50abdd95.chunk.js": "/gh-pages-react-app/static/js/2.50abdd95.chunk.js",
-    "static/js/2.50abdd95.chunk.js.map": "/gh-pages-react-app/static/js/2.50abdd95.chunk.js.map",
-    "index.html": "/gh-pages-react-app/index.html",
-    "static/css/main.2d5db054.chunk.css.map": "/gh-pages-react-app/static/css/main.2d5db054.chunk.css.map",
-    "static/js/2.50abdd95.chunk.js.LICENSE.txt": "/gh-pages-react-app/static/js/2.50abdd95.chunk.js.LICENSE.txt"
+    "main.css": "/react-seach-car/static/css/main.2d5db054.chunk.css",
+    "main.js": "/react-seach-car/static/js/main.e3b15838.chunk.js",
+    "main.js.map": "/react-seach-car/static/js/main.e3b15838.chunk.js.map",
+    "runtime-main.js": "/react-seach-car/static/js/runtime-main.2e11360a.js",
+    "runtime-main.js.map": "/react-seach-car/static/js/runtime-main.2e11360a.js.map",
+    "static/js/2.d4c8070e.chunk.js": "/react-seach-car/static/js/2.d4c8070e.chunk.js",
+    "static/js/2.d4c8070e.chunk.js.map": "/react-seach-car/static/js/2.d4c8070e.chunk.js.map",
+    "index.html": "/react-seach-car/index.html",
+    "static/css/main.2d5db054.chunk.css.map": "/react-seach-car/static/css/main.2d5db054.chunk.css.map",
+    "static/js/2.d4c8070e.chunk.js.LICENSE.txt": "/react-seach-car/static/js/2.d4c8070e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.57e294b8.js",
-    "static/js/2.50abdd95.chunk.js",
+    "static/js/runtime-main.2e11360a.js",
+    "static/js/2.d4c8070e.chunk.js",
     "static/css/main.2d5db054.chunk.css",
     "static/js/main.e3b15838.chunk.js"
   ]
